@@ -136,6 +136,9 @@ font-family: 'Fraunces';
 .container{
   max-width:var(--desktopMaxWidth);
   display:flex;
+  width: 75%;
+height: 85%;
+padding:0;
 }
 
 .desktop-img{
@@ -146,17 +149,15 @@ font-family: 'Fraunces';
   display:none;
 }
 
-header,main {
-  width:50%;
-}
+
 
 h1 {
   font-family: 'Fraunces', serif;
-  font-size: 7.3em;
-  margin-bottom: 0.3em;
-  line-height: 0.9;
-  width: 6em;
-}
+      font-size: 3.3em;
+      margin-bottom: 0.3em;
+      line-height: 0.9;
+      width: 6em;
+    }
 
 main{
   margin:0;
@@ -166,17 +167,17 @@ main{
 main p {
   font-weight: 300;
       line-height: 1.8;
-      font-size: 2.6em;
-      width: 16.8em;
+      font-size: 1.3em;
+      width: 24.5em;
       color: var(--darkGrayBlue);
 }
 .span-title {
-  font-size: 2.1em;
-letter-spacing: 0.6em;
-text-transform: uppercase;
-margin: 2.9em 0em;
-display: block;
-color: var(--darkGrayBlue);
+  font-size: 1.7em;
+      letter-spacing: 0.6em;
+      text-transform: uppercase;
+      margin: 1.9em 0em;
+      display: block;
+      color: var(--darkGrayBlue);
 }
 
 .main-content {
@@ -185,34 +186,40 @@ color: var(--darkGrayBlue);
 }
 
 .bigPrice{
+  font-size: 3.7em;
+      color: var(--darkCyan);
 
-font-size: 5.7em;
-color: var(--darkCyan);
-font-weight: 00;
-font-family: 'Fraunces';
-margin-top: 0.2em;
-display: inline-block;
+      font-family: 'Fraunces';
+      margin-top: 0.2em;
+      display: inline-block;
 }
 
 
 .smallPrice{
 
-font-size: 3.3em;
+    font-size: 2.4em;
 
 }
 
 
 .price-wrapper button {
   display: block;
-background: var(--darkCyan);
-width: 91%;
-padding: 1.2em;
-border-radius: 0.6em;
-color: #fff;
-margin-top: 5.4em;
-font-weight: 900;
-font-size: 2.1em;
-}
+  background: var(--darkCyan);
+  width: 91%;
+  padding: 0.5em;
+  border-radius: 0.6em;
+  color: #fff;
+  margin-top: 1.7em;
+  font-weight: 900;
+  font-size: 1.8em;
+
+
 }
 
+header {
+      width: 70%;
+}
+header img {
+  width:100%
+}
 }
