@@ -134,11 +134,11 @@ font-family: 'Fraunces';
 }
 
 .container{
-  max-width:var(--desktopMaxWidth);
-  display:flex;
-  width: 75%;
-height: 85%;
-padding:0;
+  max-width: var(--desktopMaxWidth);
+  display: flex;
+  width: 90em;
+  height: 60em;
+  padding: 0;
 }
 
 .desktop-img{
@@ -153,7 +153,7 @@ padding:0;
 
 h1 {
   font-family: 'Fraunces', serif;
-      font-size: 3.3em;
+      font-size: 4.1em;
       margin-bottom: 0.3em;
       line-height: 0.9;
       width: 6em;
@@ -166,10 +166,11 @@ main{
 
 main p {
   font-weight: 300;
-      line-height: 1.8;
-      font-size: 1.3em;
-      width: 24.5em;
-      color: var(--darkGrayBlue);
+  line-height: 1.8;
+  font-size: 2em;
+  width: 17.5em;
+  color: var(--darkGrayBlue);
+
 }
 .span-title {
   font-size: 1.7em;
@@ -186,18 +187,17 @@ main p {
 }
 
 .bigPrice{
-  font-size: 3.7em;
-      color: var(--darkCyan);
-
-      font-family: 'Fraunces';
-      margin-top: 0.2em;
-      display: inline-block;
+  font-size: 3.9em;
+  color: var(--darkCyan);
+  font-family: 'Fraunces';
+  margin-top: 0.2em;
+  display: inline-block;
 }
 
 
 .smallPrice{
 
-    font-size: 2.4em;
+      font-size: 2.3em;
 
 }
 
@@ -209,7 +209,7 @@ main p {
   padding: 0.5em;
   border-radius: 0.6em;
   color: #fff;
-  margin-top: 1.7em;
+  margin-top: 2.7em;
   font-weight: 900;
   font-size: 1.8em;
 
